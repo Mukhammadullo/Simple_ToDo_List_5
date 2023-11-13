@@ -2,3 +2,21 @@ body {
     background-color: black;
     color: white;
 }
+
+/* title */
+.title {
+    width: 80%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 8px lightgreen;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.title:hover {
+    box-shadow: 0px 0px 16px lightgreen;
+}
