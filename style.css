@@ -162,3 +162,14 @@ body {
     border-radius: 5px;
     border: none;
 }
+
+
+/* inpName */
+.inpName {
+    width: 260px;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
