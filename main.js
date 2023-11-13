@@ -66,6 +66,8 @@ function get(data) {
     data.forEach((elem) => {
         let forName = document.createElement("h2")
         forName.innerHTML = elem.name
+forName.classList.add("forName")
+
 
         let forCity = document.createElement("h3")
         forCity.innerHTML = elem.city

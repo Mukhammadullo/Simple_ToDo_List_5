@@ -114,4 +114,12 @@ body {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* forName */
+.forName {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: pink;
 }
