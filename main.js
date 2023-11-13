@@ -101,6 +101,7 @@ function get(data) {
         btnDel.onclick = () => {
             delUser(elem.id)
         }
+        btnDel.classList.add("btnDel")
 
         //complete
         let check = document.createElement("input")
