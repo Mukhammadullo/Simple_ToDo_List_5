@@ -98,6 +98,8 @@ function get(data) {
 
         let card = document.createElement("div")
         card.append(forName, forCity, editBtn, btnDel, check)
+        card.classList.add("cards")
+
 
         box.append(card)
     })
