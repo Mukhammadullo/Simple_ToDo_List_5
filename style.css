@@ -88,3 +88,12 @@ body {
     border-radius: 5px;
     padding: 5px;
 }
+
+/* select */
+.select {
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px;
+}
