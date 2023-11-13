@@ -21,6 +21,18 @@ let data = [
         city: "Bokhtar",
         isComplete: false
     },
+    {
+        id: 3,
+        name: "Abdurahmon",
+        city: "Khujand",
+        isComplete: false
+    },
+    {
+        id: 4,
+        name: "Hamza",
+        city: "Dushanbe",
+        isComplete: false
+    },
 
 ]
 
@@ -66,11 +78,13 @@ function get(data) {
     data.forEach((elem) => {
         let forName = document.createElement("h2")
         forName.innerHTML = elem.name
-forName.classList.add("forName")
+        forName.classList.add("forName")
 
 
         let forCity = document.createElement("h3")
         forCity.innerHTML = elem.city
+        forCity.classList.add("forCity")
+
 
         // edit
         let editBtn = document.createElement("button")
@@ -78,6 +92,8 @@ forName.classList.add("forName")
         editBtn.onclick = () => {
             editUser(elem.id)
         }
+        editBtn.classList.add("editBtn")
+
 
         // del
         let btnDel = document.createElement("button")

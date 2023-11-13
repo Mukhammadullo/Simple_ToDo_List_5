@@ -123,3 +123,22 @@ body {
     font-size: 30px;
     color: pink;
 }
+
+/* forCity */
+.forCity {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+    color: skyblue;
+}
+
+/* editBtn */
+.editBtn {
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
