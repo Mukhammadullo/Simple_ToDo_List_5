@@ -13,10 +13,26 @@ body {
     justify-content: center;
     text-align: center;
     box-shadow: 0px 0px 8px lightgreen;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
 }
 
 .title:hover {
     box-shadow: 0px 0px 16px lightgreen;
+}
+
+
+/* cardAdd */
+.cardAdd {
+    width: 80%;
+    height: 90px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 12px red;
+    border-radius: 5px;
+}
+
+.cardAdd:hover {
+    box-shadow: 0px 0px 18px red;
 }
